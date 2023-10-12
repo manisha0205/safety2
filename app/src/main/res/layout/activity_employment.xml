@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Equality">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/varela_round"
+                android:textSize="40sp"
+                android:text="Right to Equal opportunity"
+                ></TextView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:fontFamily="@font/varela_round"
+                android:justificationMode="inter_word"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:text="Equality of opportunity in matters of public employment Article 16 provides equal employment opportunities in State service for all citizens."
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="-46dp" />
+            <ImageView
+                android:layout_width="400dp"
+                android:src="@drawable/employment_text"
+                android:layout_height="300dp"></ImageView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:justificationMode="inter_word"
+                android:paddingStart="9dp"
+                android:fontFamily="@font/varela_round"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="9dp"
+                android:text="No citizen shall be discriminated against in matters of public employment or appointment on the grounds of race, religion, caste, sex, place of birth, descent or residence."
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="-16dp"
+                tools:layout_editor_absoluteY="383dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.015"
+                android:paddingStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/varela_round"
+                android:paddingEnd="15dp"
+                android:text="Exceptions to this can be made for providing special provisions for the backward classes."
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="644dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

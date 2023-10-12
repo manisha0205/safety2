@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Equality">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:fontFamily="@font/varela_round"
+                android:textSize="40sp"
+                android:text="Rights of Constitutional Remedies"
+                ></TextView>
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:fontFamily="@font/varela_round"
+                android:justificationMode="inter_word"
+                android:paddingStart="18dp"
+                android:paddingEnd="18dp"
+                android:text="Anyone can apply for the right to constitutional remedies and approach the High Court or Supreme Court. This right allows the citizens to restore their fundamental rights if they are violated. "
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="-46dp" />
+            <ImageView
+                android:layout_width="400dp"
+                android:src="@drawable/remedy_text"
+                android:layout_height="300dp"></ImageView>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:justificationMode="inter_word"
+                android:paddingStart="9dp"
+                android:fontFamily="@font/varela_round"
+                android:layout_marginTop="20dp"
+                android:paddingEnd="9dp"
+                android:text=" Dr. B.R. Ambedkar also considered this particular right to be at the heart of the Indian constitution."
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="-16dp"
+                tools:layout_editor_absoluteY="383dp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#675D5D"
+                android:justificationMode="inter_word"
+                android:letterSpacing="0.015"
+                android:paddingStart="15dp"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/varela_round"
+                android:paddingEnd="15dp"
+                android:text="It was introduced and passed in the Constituent Assembly on 23 November 1948 without any discussion or proposed amendment"
+                android:textSize="25sp"
+                tools:layout_editor_absoluteX="46dp"
+                tools:layout_editor_absoluteY="644dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

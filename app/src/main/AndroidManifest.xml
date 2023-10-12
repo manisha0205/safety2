@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Safety2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Robot"
+            android:exported="false" />
+        <activity
+            android:name=".Constitutional_Remedy"
+            android:exported="false" />
+        <activity
+            android:name=".Maternity"
+            android:exported="false" />
+        <activity
+            android:name=".Equalpay"
+            android:exported="false" />
+        <activity
+            android:name=".Livelihood"
+            android:exported="false" />
+        <activity
+            android:name=".Exploitation"
+            android:exported="false" />
+        <activity
+            android:name=".Liberty"
+            android:exported="false" />
+        <activity
+            android:name=".Work"
+            android:exported="false" />
+        <activity
+            android:name=".Speech"
+            android:exported="false" />
+        <activity
+            android:name=".Helpline"
+            android:exported="false" />
+        <activity
+            android:name=".Employment"
+            android:exported="false" />
+        <activity
+            android:name=".Discrimination"
+            android:exported="false" />
+        <activity
+            android:name=".Vote"
+            android:exported="false" />
+        <activity
+            android:name=".Equality"
+            android:exported="false" />
+        <activity
+            android:name=".Sections"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Scr"
+            android:exported="false" />
+        <activity
+            android:name=".Rights_women"
+            android:exported="false" />
+        <activity
+            android:name=".Static_splash"
+            android:exported="false" />
+        <activity
+            android:name=".Static_Content"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
