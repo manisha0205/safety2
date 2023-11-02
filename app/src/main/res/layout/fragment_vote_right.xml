@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3D9FA"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VoteRightFragment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+       app:cardCornerRadius="50dp"
+        app:cardElevation="15dp"
+        android:layout_gravity="center"
+        android:layout_height="700dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/right_vote"
+                ></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:justificationMode="inter_word"
+                android:text="If you are over the age of 18, you have the essential constitutional right to vote in the India. This, makes it optional. Voters, particularly in metropolitan areas, have a tendency to regard election day as a day of rest."
+                ></TextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</FrameLayout>

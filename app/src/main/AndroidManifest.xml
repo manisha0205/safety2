@@ -15,52 +15,10 @@
             android:name=".Robot"
             android:exported="false" />
         <activity
-            android:name=".Constitutional_Remedy"
-            android:exported="false" />
-        <activity
-            android:name=".Maternity"
-            android:exported="false" />
-        <activity
-            android:name=".Equalpay"
-            android:exported="false" />
-        <activity
-            android:name=".Livelihood"
-            android:exported="false" />
-        <activity
-            android:name=".Exploitation"
-            android:exported="false" />
-        <activity
-            android:name=".Liberty"
-            android:exported="false" />
-        <activity
-            android:name=".Work"
-            android:exported="false" />
-        <activity
-            android:name=".Speech"
-            android:exported="false" />
-        <activity
-            android:name=".Helpline"
-            android:exported="false" />
-        <activity
-            android:name=".Employment"
-            android:exported="false" />
-        <activity
-            android:name=".Discrimination"
-            android:exported="false" />
-        <activity
-            android:name=".Vote"
-            android:exported="false" />
-        <activity
-            android:name=".Equality"
-            android:exported="false" />
-        <activity
             android:name=".Sections"
             android:exported="false" />
         <activity
             android:name=".Splash_Scr"
-            android:exported="false" />
-        <activity
-            android:name=".Rights_women"
             android:exported="false" />
         <activity
             android:name=".Static_splash"
